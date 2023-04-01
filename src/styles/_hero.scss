@@ -1,3 +1,5 @@
+@use'config/variables/color.scss';
+
 .hero{
     padding-top: 64px;
     padding-bottom: 100px;
@@ -12,7 +14,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: color.$overlayColor;
         content: '';
     }
 
@@ -23,11 +25,10 @@
 
     &__logo{
         font-family: 'Play', sans-serif;
-        color: white;
         font-size: 60px;
 
         span{
-            color: #3d4cbe;
+            color: color.$spanColor;
             font-size: 70px;
         }
     }
@@ -38,7 +39,6 @@
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;
-        color: white;
         text-align: center;
     }
 
