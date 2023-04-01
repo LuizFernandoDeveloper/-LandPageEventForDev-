@@ -21,4 +21,4 @@
 
 ![Gif applicação Event4dev](./mediaForReadme/event4dev.gif)
 
-# [Veja a aplicação  na vercel](land-page-event-for-dev.vercel.app)
+# [Veja a aplicação  na vercel](https://land-page-event-for-dev.vercel.app/)
